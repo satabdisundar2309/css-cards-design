@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card 1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .wrapper {
+        height: 100vh;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 400px;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px;
+        gap: 10px;
+      }
+      .image {
+        height: 250px;
+        border-radius: 10px;
+      }
+      .mybolodtext{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .pg1{
+        font-size: large;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <img src="sky.jpg" class="image" />
+        <div class="mybolodtext">
+          <p class="pg pg1">
+            This is my one of the best and finest new paragraph tag for you.
+          </p>
+          <p class="pg pg2">
+            This is my second one of the best and finest new new paragraph tag
+            for you and I love you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

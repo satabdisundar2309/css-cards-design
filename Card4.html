@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .wrapper {
+        height: 100vh;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 45%;
+        width: 40%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        /* gap: 20px; */
+        /* justify-content: space-between; */
+      }
+      /* .imgdiv{
+        height: 100%;
+        width: 45%;
+      } */
+      .image {
+        height: 100%;
+        width: 45%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      .div2 {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .span1 {
+        display: inline-block;
+        color: #35705a;
+      }
+      .span2 {
+        margin-left: 10px;
+        color: gray;
+        font-size: small;
+      }
+      .para {
+        color: gray;
+      }
+      .btn {
+        padding: 10px;
+        width: 100%;
+        background-color: #35705a;
+        border-radius: 5px;
+        outline: none;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <img src="mug.jpg" alt="" class="image" />
+
+        <div class="div2">
+          <div class="paradiv">
+            <p class="para">Coffee Mug</p>
+          </div>
+          <div class="hdiv">
+            <h2 class="Heading">White Coffee <br />Mug</h2>
+          </div>
+
+          <div class="paradiv">
+            <p class="para">
+              Coffee Mugs are designed to express emotions. These care acclaimed
+              for their amazing design and superior quality.
+            </p>
+          </div>
+          <div class="spandiv">
+            <span class="span1"><h2>$149</h2></span>
+            <span class="span2"><del>$230</del></span>
+          </div>
+          <button class="btn">
+            <img
+              class="btnImg"
+              src="https://bit.ly/3Q6Adni"
+              alt=""
+              class="btn_img"
+            />
+            <span class="desc btnText">Add to Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

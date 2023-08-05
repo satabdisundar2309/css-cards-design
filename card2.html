@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card 2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .wrapper {
+        height: 100vh;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 450px;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        overflow: hidden;
+        gap: 25px;
+        /* justify-content: space-evenly; */
+        align-items: center;
+      }
+      .image {
+        width: 100%;
+        height: 125px;
+        /* margin-bottom: 10px; */
+        align-self: flex-start;
+      }
+      .textbox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .p1 {
+        font-size: larger;
+        font-weight: bolder;
+      }
+      .p2 {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .bup {
+        height: 10%;
+        width: 80%;
+        background-color: lightblue;
+        border-radius: 5px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .smallimg {
+        height: 30px;
+        width: 30px;
+        border-radius: 3px;
+      }
+      .indiv1 {
+        display: flex;
+        flex-direction: row;
+        /* padding: 5px; */
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .inindiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0;
+        margin: 5px;
+      }
+      .button1{
+        background-color: rgb(7, 7, 36);
+        color: white;
+        height: 10%;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+      .cancelOrder a{
+        text-decoration: none;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <img src="sky.jpg" class="image" />
+        <div class="textbox">
+          <p class="p1">Order Summary</p>
+          <p class="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            earum culpa officiis quae nesciunt minima, labore itaque obcaecati!
+          </p>
+        </div>
+        <div class="bup">
+          <div class="indiv1">
+            <img src="smalllogo.jpg" class="smallimg" />
+            <div class="inindiv">
+              <p class="inp1">Annual Plan</p>
+              <p class="inp2">$99.9/year</p>
+            </div>
+          </div>
+          <div class="indiv2"><a href="https//www.google.com">Change</a></div>
+        </div>
+        <button class="button1">Proceed to Payment</button>
+        <div class="cancelOrder">
+            <a href="#">Cancel Order</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
